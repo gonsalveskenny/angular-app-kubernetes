@@ -22,4 +22,5 @@ stages:
     steps:
     - script: |
         apt update
+        docker version
       displayName: apt update
