@@ -25,4 +25,6 @@ stages:
         apt install docker.io -y
         docker version
         ls
+        docker build -t new-image .
+        docker images
       displayName: apt update
