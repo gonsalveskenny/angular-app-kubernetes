@@ -22,6 +22,6 @@ stages:
     steps:
     - script: |
         apt update
-        apt install docker.io
+        apt install docker.io -y
         docker version
       displayName: apt update
